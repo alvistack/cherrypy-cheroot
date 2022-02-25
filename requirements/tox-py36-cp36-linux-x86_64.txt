@@ -76,7 +76,7 @@ pyparsing==3.0.7
     # via packaging
 pypytools==0.6.2
     # via -r requirements/tox-py36-cp36-linux-x86_64.in
-pytest==6.2.5
+pytest==7.0.1
     # via
     #   -r requirements/tox-py36-cp36-linux-x86_64.in
     #   pytest-cov
@@ -118,13 +118,13 @@ tempora==4.1.2
     # via portend
 termcolor==1.1.0
     # via pytest-sugar
-toml==0.10.2
-    # via pytest
 tomli==1.2.3
-    # via coverage
+    # via
+    #   coverage
+    #   pytest
 trustme==0.9.0
     # via -r requirements/tox-py36-cp36-linux-x86_64.in
-typing-extensions==4.1.0
+typing-extensions==4.1.1
     # via importlib-metadata
 urllib3==1.26.8 ; python_version != "3.4"
     # via
