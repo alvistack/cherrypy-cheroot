@@ -1,1 +1,1 @@
-tox-build-dists.in
+build ~= 0.7.0

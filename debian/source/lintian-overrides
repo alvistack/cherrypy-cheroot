@@ -1,0 +1,5 @@
+python-cheroot source: file-without-copyright-information
+python-cheroot source: no-debian-changes
+python-cheroot source: source-contains-prebuilt-windows-binary
+python-cheroot source: source-is-missing
+python-cheroot source: source-package-encodes-python-version
