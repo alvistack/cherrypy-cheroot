@@ -4,10 +4,5 @@
 requires = [
     # Essentials
     "setuptools>=34.4",
-
-    # Plugins
-    "setuptools-scm >= 7.0.0",
 ]
 build-backend = "setuptools.build_meta"
-
-[tool.setuptools_scm]
