@@ -1,0 +1,4 @@
+python3-cheroot: copyright-without-copyright-notice
+python3-cheroot: initial-upload-closes-no-bugs
+python3-cheroot: no-manual-page
+python3-cheroot: zero-byte-file-in-doc-directory
