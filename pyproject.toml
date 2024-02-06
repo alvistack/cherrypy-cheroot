@@ -4,14 +4,12 @@
 requires = [
   # Essentials
   "setuptools >= 61.2",
-
-  # Plugins
-  "setuptools-scm >= 7.0.0",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "cheroot"
+version = "11.1.0"
 description = "Highly-optimized, pure-python HTTP server"
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -50,9 +48,6 @@ dependencies = [
   "more_itertools >= 2.6",
   "jaraco.functools",
 ]
-dynamic = [
-  "version",
-]
 
 [[project.authors]]
 name = "CherryPy Team"
@@ -90,5 +85,3 @@ cheroot = "cheroot.cli:main"
 
 [tool.setuptools.packages.find]
 exclude = ['dependencies']
-
-[tool.setuptools_scm]
